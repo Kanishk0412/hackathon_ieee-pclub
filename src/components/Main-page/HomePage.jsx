@@ -12,7 +12,7 @@ import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
-import {Member, JoinTeam} from "../team/team.jsx";
+import {Member} from "../team/team.jsx";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
 
@@ -58,10 +58,11 @@ function PrizeGroup(props) {
 
 // Prize group ending
 function TeamMembers(props) {
+
   return (
     <Row className="members">
       {props.map(s => (
-        <Col className="" sm={12} lg={4} md={4}>
+        <Col className="" sm={12} lg={3} md={3}>
           <Member name={s.Name} role={s.role} img={s.img} />
         </Col>
       ))}
@@ -149,7 +150,6 @@ export default function HomePage(props) {
 
         {/* ********Team here ***** */}
         <h1>Our Team</h1>
-        {FOOTER.JOIN_TEAM.required && <JoinTeam />}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>

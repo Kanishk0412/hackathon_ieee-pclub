@@ -18,12 +18,18 @@ import ACF from "./Assets/sponsorsLogos/ACF.png";
  */
 
 // Importing all Team members images  from Assets
-import me from "./Assets/teami/me.png";
-import moon from "./Assets/teami/moon.png";
-import Ryah from "./Assets/teami/Ryah.jpg";
-import lyin from "./Assets/teami/lyin.jpg";
-import zoha from "./Assets/teami/zoha.png";
-
+import aditi from "./Assets/teami/aditi.jpg";
+import gaurika from "./Assets/teami/gaurika.jpeg";
+import kanishk from "./Assets/teami/kanishk.jpg";
+import jatin from "./Assets/teami/jatin.jpg";
+import harbans from "./Assets/teami/harbans.jpg";
+import ritvik from "./Assets/teami/ritvik.jpg";
+import gurnameh from "./Assets/teami/gurnameh.jpeg";
+import animesh from "./Assets/teami/animesh.jpeg";
+import charu from "./Assets/teami/charu.jpg";
+import kumud from "./Assets/teami/kumud.jpg";
+import shatabarto from "./Assets/teami/shatabarto.jpg";
+import pic from "./Assets/teami/pic.png";
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
@@ -66,10 +72,6 @@ const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
     src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
-  },
-  JOIN_TEAM: {
-    required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
   },
   Privacy_policy: {
     required: true,
@@ -159,43 +161,60 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: me
+      Name: "Gurnameh",
+      img: gurnameh
     },
     {
-      Name: "Moon",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: moon
+      Name: "Charu Kaushik",
+      img: charu
     },
     {
-      Name: "Ryah Garcia",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: Ryah
+      Name: "Animesh Bhatt",
+      img: animesh
+    },
+    {
+      Name: "Kumud Rana",
+      img: kumud
     }
   ],
   [
     //Array 2
+    
     {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: lyin
+      Name: "Harbans Singh",
+      img: harbans
     },
     {
-      Name: "Zoheb",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: zoha
-    },    
+      Name: "Kanishk Tyagi",
+      img: kanishk
+    },
+    {
+      Name: "Aditi Shandyal",
+      img: aditi
+    },
+    {
+      Name: "Shatabarto Bhattacharya",
+      img: shatabarto
+    },
+       
+  ],
+  [
+    {
+      Name: "Gaurika",
+      img: gaurika
+    },
+    {
+      Name: "Jatin Jain",
+      img: jatin
+    },
+    {
+      Name: "Ritvik Gupta",
+      img: ritvik
+    },
+    {
+      Name: "Meghna Thakur",
+      img: pic
+    },
   ] 
 ];
 
