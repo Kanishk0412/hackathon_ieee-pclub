@@ -55,9 +55,9 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is Limbo hacks?",
+  TITLE: "What is HackUiet?",
   LONG_DESCRIPTION:
-    "Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "HackUIET is UIET, PU's premier hackathon organised in the month of November. This year, the hackathon is being held from November.We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes. Throughout the weekend hackers at HackUiet will have unique opportunities to learn from each other trying hands in new technologies .We are determined to have an all-inclusive and diverse group of students attending.So come join us for a 24 hour sprint to build things and most importantly, to learn! Participants are requested to carefully fill the google form.The hackathon will start at  November.Happy Hacking!",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -224,11 +224,11 @@ const frequentlyAskedQuestions  = [
         'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
       {
         label: "Who can attend?",
-        content: "Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools."
+        content: "HackUiet is open to all undergraduate, high school students and middle school students from all schools."
       },
       {
         label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
+        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. It would give you exposure for your future journey."
       },
       {
         label: "How team formation works?",
@@ -238,21 +238,21 @@ const frequentlyAskedQuestions  = [
     [
       {
         label: "How to register myself in the hackathon?",
-        content: "All you need is to fill our form above and join Discord, we will guide you through everything there"
+        content: "All you need is to fill our form and we will guide you through everything."
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you."
+        content: "Reach us directly at ........... we would happy to help you."
       }
       ,
       {
         label: "Can i volunteer?",
-        content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
+        content: "Yes we are actively looking for volunteers, fill the form and we will be glad to have you."
       }
       ,
       {
         label: "Will there be swag?",
-        content: "Yes! Participants will recieveing Limbo Hacks swag!."
+        content: "Yes! Participants will recieveing swag!."
       }
     ]
   ],
