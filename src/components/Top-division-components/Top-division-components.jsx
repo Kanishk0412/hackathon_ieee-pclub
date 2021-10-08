@@ -41,15 +41,15 @@ function Myinfo() {
         </a>
       </div>
       {/* This is judges application button */}
-      {/* <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+      <a href={TOP_SECTION.JUDGES_FORM_LINK}>
         {" "}
         <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
-      </a> */}
+      </a>
 
-      {/* <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
         {" "}
         <Btn class="register" type="Register " overlay="Hackers registration" />
-      </a> */}
+      </a>
     </div>
   );
 }
