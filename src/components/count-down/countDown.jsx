@@ -9,7 +9,7 @@ export default function CountDown() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://discord.gg/8XJSzmtWPp"
+          href="https://discord.gg/TtBnyeWAqt"
         >
           <i class="fab fa-3x fa-discord"></i>
           <p>Join our discord</p>
