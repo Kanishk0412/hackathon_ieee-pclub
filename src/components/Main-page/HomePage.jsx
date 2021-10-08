@@ -8,7 +8,8 @@ import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
-import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
+// import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
+import {Sponsor, SponsorsHead} from "../Sponsors/sponsors.jsx";
 
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
@@ -140,7 +141,7 @@ export default function HomePage(props) {
 
         <Row className="sponsorSection">
           <SponsorsHead />
-          <SponsorUS />
+          {/* <SponsorUS /> */}
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
