@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
 nav {
   list-style-type: none;
-  height: 7.5vh;
+  height: 10vh;
   font-size: 1.8rem;
   position: fixed;
   width: 100%;
@@ -16,7 +16,7 @@ ul {
 }
 nav ul li {
   display: inline-block;
-  margin: 2rem 0 5rem 6rem;
+  margin: 3rem 3rem 3rem 3rem;
 }
 .links {
   color: rgb(231, 228, 228);
@@ -36,14 +36,14 @@ a:link {
 @media (max-width: 600px) {
   ul {
     text-align: center;
-    margin-right: 6rem;
-    margin-left: 0%;
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
   nav ul li {
-    margin: 2rem 1rem 0 1rem;
+    margin: 1rem 1rem 1rem 1rem;
   }
   nav {
-    height: 8.5vh;
+    height: 10vh;
   }
 }
 
@@ -62,5 +62,13 @@ a:link {
     padding: 4px 11px;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
+}
+
+.nav_bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
