@@ -46,7 +46,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://www.instagram.com/limbohacks/",
-  discord: "https://discord.com/invite/8XJSzmtWPp",
+  discord: "https://discord.gg/TtBnyeWAqt",
   linkedin: "https://www.linkedin.com/company/limbo-hacks/",
   twitter: "https://twitter.com/HacksLimbo",
   devpost: "https://limbo-hacks-12968.devpost.com/",
