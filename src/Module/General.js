@@ -30,6 +30,9 @@ import charu from "./Assets/teami/charu.jpg";
 import kumud from "./Assets/teami/kumud.jpg";
 import shatabarto from "./Assets/teami/shatabarto.jpg";
 import pic from "./Assets/teami/pic.png";
+import aryan from "./Assets/teami/aryan.jpg";
+import muskan from "./Assets/teami/muskan.jpg";
+import vishal from "./Assets/teami/vishal.jpg";
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
@@ -165,12 +168,12 @@ const TeamInfo = [
       img: gurnameh
     },
     {
-      Name: "Charu Kaushik",
-      img: charu
+      Name: "Harbans Singh",
+      img: harbans
     },
     {
-      Name: "Animesh Bhatt",
-      img: animesh
+      Name: "Aryan Basu",
+      img: aryan
     },
     {
       Name: "Kumud Rana",
@@ -181,8 +184,8 @@ const TeamInfo = [
     //Array 2
     
     {
-      Name: "Harbans Singh",
-      img: harbans
+      Name: "Gaurika",
+      img: gaurika
     },
     {
       Name: "Kanishk Tyagi",
@@ -200,8 +203,8 @@ const TeamInfo = [
   ],
   [
     {
-      Name: "Gaurika",
-      img: gaurika
+      Name: "Meghna Thakur",
+      img: pic
     },
     {
       Name: "Jatin Jain",
@@ -212,8 +215,26 @@ const TeamInfo = [
       img: ritvik
     },
     {
-      Name: "Meghna Thakur",
-      img: pic
+      Name: "Animesh Bhatt",
+      img: animesh
+    },
+  ],
+  [
+    {
+      Name: "Charu Kaushik",
+      img: charu
+    },
+    {
+      Name: "Kumud",
+      img: kumud
+    },
+    {
+      Name: "Muskan Jain",
+      img: muskan
+    },
+    {
+      Name: "Vishal",
+      img: vishal
     },
   ] 
 ];

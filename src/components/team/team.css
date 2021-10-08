@@ -11,12 +11,12 @@
     opacity: 0.90;
 }
 .member img {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   /*display: block;*/
   margin: 0 auto;
-  border: 5px solid rgb(11, 219, 115);
+  border: 3px solid rgb(14, 100, 211);
 }
 .members-link {
   text-align: center;
