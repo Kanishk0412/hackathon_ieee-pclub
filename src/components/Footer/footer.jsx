@@ -14,8 +14,7 @@ import {SOCIALS, TOP_SECTION, FOOTER} from "../../Module/General";
 function GithubTemplate(){
 
   return (
-  <div class="template">
-        <a href="https://github.com/Limbo-Hacks/Hackathon-website-template">  <p> Get this template <i class="fab fa-github-alt"></i> in github <i class="fas fa-times"></i></p></a>
+  <div>
   </div>
   )
 }
@@ -24,19 +23,6 @@ function GithubTemplate(){
 
 
 export default function Footer() {
-
-  const [template,setTemplate]=useState(false)
-
-  useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent);
-  }, []);
-
-  const listenScrollEvent = e => {
-    if (window.scrollY > 2800)
-      setTemplate(true)
-  else if(window.scrollY < 2800)
-  setTemplate(false)
-  }
 
   return (
     <div>
@@ -114,7 +100,6 @@ export default function Footer() {
           <p>Made with ❤️</p>
 
         </div>
-      {template &&<GithubTemplate/>}
       </div>
     </div>
   );
