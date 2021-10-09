@@ -56,13 +56,13 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/limbohacks/",
-  discord: "https://discord.gg/TtBnyeWAqt",
-  linkedin: "https://www.linkedin.com/company/limbo-hacks/",
-  twitter: "https://twitter.com/HacksLimbo",
-  devpost: "https://limbo-hacks-12968.devpost.com/",
-  email: "mailto:hello@limbohacks.tech",
-  mail: "hello@limbohacks.tech"
+    instagram: "https://www.instagram.com/pclubuiet/",
+    discord: "https://discord.gg/TtBnyeWAqt",
+    linkedin: "https://www.linkedin.com/company/pclubbuiet/mycompany/",
+    twitter: "https://twitter.com/PClubUIET",
+    devpost: "https://limbo-hacks-12968.devpost.com/",
+    email: "mailto:pclubuiet@gmail.com",
+    mail: "pclubuiet@gmail.com"
 };
 
 const MIDDLE_SECTION = {
@@ -76,7 +76,7 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
+    src: "https://forms.gle/BFj8mj3Qz1pvAF7W8"
   },
   Privacy_policy: {
     required: true,
