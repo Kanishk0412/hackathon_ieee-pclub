@@ -43,7 +43,7 @@ import boy from "./Assets/boy.png";
 import HU from "./Assets/HU.png"
 
 const TOP_SECTION = {
-  TITLE: "Join Limbo Hacks",
+  TITLE: "Join HackUIET",
   Typed_effect: ["60 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
