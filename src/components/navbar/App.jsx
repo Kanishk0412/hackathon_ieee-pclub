@@ -11,6 +11,7 @@ import Twitter from "../Routes/Twitter";
 import Linkedin from "../Routes/LinkedIn";
 import Instagram from "../Routes/Instagram";
 import Devpost from "../Routes/Devpost";
+import HackUIET from "../../Module/Assets/hulogo.svg"
 
 export default class NAVBAR extends React.Component {
   state = {
@@ -33,21 +34,17 @@ export default class NAVBAR extends React.Component {
       <Router>
         <div>
           <nav className="nav_bar" style={{backgroundColor: this.state.color}}>
+          <img style={{height:"9vh"}} src={HackUIET} />
             <ul>
               <li>
-                <Link to="/">
-                  <span className="links">Home </span>{" "}
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact">
+                <a href="/#sponsors">
                   <span className="links">Sponsors </span>{" "}
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/projects">
-                  <span className="links">More info </span>{" "}
-                </Link>
+                <a href="/#team">
+                  <span className="links">Team </span>{" "}
+                </a>
               </li>
             </ul>
           </nav>

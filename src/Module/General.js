@@ -39,15 +39,20 @@ import vishal from "./Assets/teami/vishal.jpg";
  * or you can provide a cloud link in src also
  */
 
-import hackuiet from "./Assets/hackuiet.png";
+
+
+import HU from "./Assets/HU.png"
+
 
 const TOP_SECTION = {
-  TITLE: "Join Limbo Hacks",
-  Typed_effect: ["24 hours of creation", "Win awesome prizes"],
+  TITLE: "Join HackUIET",
+  Typed_effect: ["60 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
-  IMG_SRC: hackuiet,
-  DISCORD_LINK: "",
+
+  IMG_SRC: HU,
+  DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
+
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
@@ -55,19 +60,19 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/limbohacks/",
-  discord: "https://discord.gg/TtBnyeWAqt",
-  linkedin: "https://www.linkedin.com/company/limbo-hacks/",
-  twitter: "https://twitter.com/HacksLimbo",
-  devpost: "https://limbo-hacks-12968.devpost.com/",
-  email: "mailto:hello@limbohacks.tech",
-  mail: "hello@limbohacks.tech"
+    instagram: "https://www.instagram.com/pclubuiet/",
+    discord: "https://discord.gg/TtBnyeWAqt",
+    linkedin: "https://www.linkedin.com/company/pclubbuiet/mycompany/",
+    twitter: "https://twitter.com/PClubUIET",
+    devpost: "https://limbo-hacks-12968.devpost.com/",
+    email: "mailto:pclubuiet@gmail.com",
+    mail: "pclubuiet@gmail.com"
 };
 
 const MIDDLE_SECTION = {
   TITLE: "What is HackUiet?",
   LONG_DESCRIPTION:
-    "HackUIET is UIET, PU's premier hackathon organised in the month of November. This year, the hackathon is being held from November.We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes. Throughout the weekend hackers at HackUiet will have unique opportunities to learn from each other trying hands in new technologies .We are determined to have an all-inclusive and diverse group of students attending.So come join us for a 24 hour sprint to build things and most importantly, to learn! Participants are requested to carefully fill the google form.The hackathon will start at  November.Happy Hacking!",
+    "HackUIET is UIET, PU's premier hackathon organised in the month of November. This year, the hackathon is being held from 12 to 14 November ,2021 .We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes. Throughout the weekend hackers at HackUiet will have unique opportunities to learn from each other trying hands in new technologies .We are determined to have an all-inclusive and diverse group of students attending.So come join us for a 60 hours sprint to build things and most importantly, to learn! Participants are requested to carefully fill the google form.Happy Hacking!",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -75,7 +80,7 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
+    src: "https://forms.gle/BFj8mj3Qz1pvAF7W8"
   },
   Privacy_policy: {
     required: true,
@@ -263,7 +268,7 @@ const frequentlyAskedQuestions  = [
       {
         label: "What is a hackathon?",
         content:
-        'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
+        'A hackathon is a 60 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
       {
         label: "Who can attend?",
         content: "HackUiet is open to all undergraduate, high school students and middle school students from all schools."
@@ -280,11 +285,11 @@ const frequentlyAskedQuestions  = [
     [
       {
         label: "How to register myself in the hackathon?",
-        content: "All you need is to fill our form and we will guide you through everything."
+        content: "All you need is to fill our form."
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at ........... we would happy to help you."
+        content: "Reach us directly at pclubuiet@gmail.com we would happy to help you."
       }
       ,
       {
@@ -293,8 +298,8 @@ const frequentlyAskedQuestions  = [
       }
       ,
       {
-        label: "Will there be swag?",
-        content: "Yes! Participants will recieveing swag!."
+        label: "Will there be reward for winners?",
+        content: "Yes! winners will recieveing rewards."
       }
     ]
   ],

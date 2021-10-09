@@ -140,17 +140,16 @@ export default function HomePage(props) {
 
         {/* ********Sponsors here ***** */}
 
-        <Row className="sponsorSection">
+        <Row id="sponsors" className="sponsorSection">
           <SponsorsHead />
           {/* <SponsorUS /> */}
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
-        <Birds top="120vh" left="0vh" type="" />
 
         {/* ********Team here ***** */}
-        <h1>Our Team</h1>
+        <h1 id="team">Our Team</h1>
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
