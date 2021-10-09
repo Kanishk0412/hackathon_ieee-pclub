@@ -39,14 +39,14 @@ import vishal from "./Assets/teami/vishal.jpg";
  * or you can provide a cloud link in src also
  */
 
-import boy from "./Assets/boy.png";
+import hackuiet from "./Assets/hackuiet.png";
 
 const TOP_SECTION = {
   TITLE: "Join Limbo Hacks",
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
-  IMG_SRC: boy,
+  IMG_SRC: hackuiet,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",

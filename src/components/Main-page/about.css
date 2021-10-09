@@ -10,7 +10,7 @@
   background-size: auto 100vh;
 }
 .color_sectiom {
-  background-color: #121930;
+  background-color: white;
   padding-bottom: 5rem;
 }
 h1 {
@@ -23,7 +23,7 @@ h1 {
 
 .info {
   margin-top: 20vh;
-  color: white;
+  color: #25D366;
 }
 
 .d-image img {
@@ -33,10 +33,12 @@ h1 {
   top:0px;
   transition: top 0.2s linear;
 }
+
 .d-image img:hover {
 opacity: 0.9;
 top: 10px;
 }
+
 .logoSection {
   text-align: center;
   padding: 20vh 10vh 0 10vh;
@@ -53,7 +55,7 @@ top: 10px;
   margin: 17vh 14vh 0 14vh;
   border-radius: 14px;
   margin-top: 4vh;
-  background-color: #f3effe;
+  background-color: #ccff99;
 }
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;
