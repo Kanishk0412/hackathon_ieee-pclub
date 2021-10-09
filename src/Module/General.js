@@ -57,7 +57,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is HackUiet?",
   LONG_DESCRIPTION:
-    "HackUIET is UIET, PU's premier hackathon organised in the month of November. This year, the hackathon is being held from November.We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes. Throughout the weekend hackers at HackUiet will have unique opportunities to learn from each other trying hands in new technologies .We are determined to have an all-inclusive and diverse group of students attending.So come join us for a 24 hour sprint to build things and most importantly, to learn! Participants are requested to carefully fill the google form.The hackathon will start at  November.Happy Hacking!",
+    "HackUIET is UIET, PU's premier hackathon organised in the month of November. This year, the hackathon is being held from 12 to 14 November ,2021 .We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes. Throughout the weekend hackers at HackUiet will have unique opportunities to learn from each other trying hands in new technologies .We are determined to have an all-inclusive and diverse group of students attending.So come join us for a 60 hours sprint to build things and most importantly, to learn! Participants are requested to carefully fill the google form.Happy Hacking!",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -221,7 +221,7 @@ const frequentlyAskedQuestions  = [
       {
         label: "What is a hackathon?",
         content:
-        'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
+        'A hackathon is a 60 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
       {
         label: "Who can attend?",
         content: "HackUiet is open to all undergraduate, high school students and middle school students from all schools."
@@ -238,11 +238,11 @@ const frequentlyAskedQuestions  = [
     [
       {
         label: "How to register myself in the hackathon?",
-        content: "All you need is to fill our form and we will guide you through everything."
+        content: "All you need is to fill our form."
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at ........... we would happy to help you."
+        content: "Reach us directly at pclubuiet@gmail.com we would happy to help you."
       }
       ,
       {
@@ -251,8 +251,8 @@ const frequentlyAskedQuestions  = [
       }
       ,
       {
-        label: "Will there be swag?",
-        content: "Yes! Participants will recieveing swag!."
+        label: "Will there be reward for winners?",
+        content: "Yes! winners will recieveing rewards."
       }
     ]
   ],
