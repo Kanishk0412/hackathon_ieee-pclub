@@ -39,16 +39,20 @@ import vishal from "./Assets/teami/vishal.jpg";
  * or you can provide a cloud link in src also
  */
 
-import boy from "./Assets/boy.png";
+
+
 import HU from "./Assets/HU.png"
+
 
 const TOP_SECTION = {
   TITLE: "Join HackUIET",
   Typed_effect: ["60 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+
   IMG_SRC: HU,
   DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
+
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:

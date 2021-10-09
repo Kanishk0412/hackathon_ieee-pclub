@@ -19,9 +19,9 @@ export default class NAVBAR extends React.Component {
   };
   listenScrollEvent = e => {
     if (window.scrollY > 800) {
-      this.setState({color: "rgba(50, 13, 136)"});
+      this.setState({color: "#25D366"});
     } else {
-      this.setState({color: "#121930"});
+      this.setState({color: "#25D366"});
     }
   };
 
