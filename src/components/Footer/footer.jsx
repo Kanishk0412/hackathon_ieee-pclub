@@ -10,6 +10,8 @@ import TermsOfUse from "./Terms of use.pdf";
 import Twitter from "./icons8-twitter.svg";
 import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import {SOCIALS, TOP_SECTION, FOOTER} from "../../Module/General";
+import IEEEUIET from "../../Module/Assets/IEEEUIET.png"
+import PClub from "../../Module/Assets/pclub.png"
 
 function GithubTemplate(){
 
@@ -60,9 +62,6 @@ export default function Footer() {
           </div>
         </div>
         <div className="Register_a">
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Fill the form" />
-          </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
@@ -70,34 +69,33 @@ export default function Footer() {
           )}
         </div>
         <div className="footer_info">
+          <div className="footer_org">
+            <div className="footer_org_div">
+              <hr />
+              <div style={{height:"30%"}}>
+                <img style={{objectFit:"scale-down" , height:"100%", marginTop:"auto", marginBottom:"auto"}} src={IEEEUIET} />
+              </div>
+              <hr />
+              <p>IEEE mail<br />
+              IEEE contact<br />
+              IEEE phone number<br />
+              </p>
+            </div>
+            <div className="footer_org_div">
+              <hr />
+              <div style={{height:"30%"}}>
+                <img style={{objectFit:"scale-down" , height:"100%", paddingBottom:"auto", paddingTop:"auto"}} src={PClub} />
+              </div>
+              <hr />
+              <p>PClub mail<br />
+              PClub contact<br />
+              PClub phone number<br />
+              </p>
+            </div>
+          </div>
           <p>
-            Contact us{" "}
-            <a href={SOCIALS.email}>
-              <em>{SOCIALS.mail}</em>
-            </a>{" "}
+            Made with ❤️ in UIET, Panjab University
           </p>
-
-          {FOOTER.Privacy_policy.required && (
-            <a
-              href={PrivacyPolicy}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Privacy Policy</p>
-            </a>
-          )}
-          {FOOTER.Terms_of_use.required && (
-            <a
-              href={TermsOfUse}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Terms of Use</p>
-            </a>
-          )}
-          <p>Made with ❤️</p>
 
         </div>
       </div>
