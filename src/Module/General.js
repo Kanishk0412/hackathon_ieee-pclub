@@ -34,25 +34,23 @@ import pic from "./Assets/teami/pic.png";
 import aryan from "./Assets/teami/aryan.jpg";
 import muskan from "./Assets/teami/muskan.jpg";
 import vishal from "./Assets/teami/vishal.jpg";
+import ashwani from "./Assets/teami/ashwani.jpeg";
+import chaitanya from "./Assets/teami/chaitanya.jpg";
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
  */
 
-
-
+import boy from "./Assets/boy.png";
 import HU from "./Assets/HU.png"
-
 
 const TOP_SECTION = {
   TITLE: "Join HackUIET",
   Typed_effect: ["60 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
-
   IMG_SRC: HU,
   DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
-
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
@@ -178,12 +176,12 @@ const TeamInfo = [
       img: harbans
     },
     {
-      Name: "Aryan Basu",
-      img: aryan
+      Name: "Ashwani",
+      img: ashwani
     },
     {
-      Name: "Kumud Rana",
-      img: kumud
+      Name: "Kanishk Tyagi",
+      img: kanishk
     }
   ],
   [
@@ -194,10 +192,6 @@ const TeamInfo = [
       img: gaurika
     },
     {
-      Name: "Kanishk Tyagi",
-      img: kanishk
-    },
-    {
       Name: "Aditi Shandyal",
       img: aditi
     },
@@ -205,13 +199,13 @@ const TeamInfo = [
       Name: "Shatabarto Bhattacharya",
       img: shatabarto
     },
-       
-  ],
-  [
     {
       Name: "Meghna Thakur",
       img: pic
-    },
+    }
+       
+  ],
+  [
     {
       Name: "Jatin Jain",
       img: jatin
@@ -224,15 +218,19 @@ const TeamInfo = [
       Name: "Animesh Bhatt",
       img: animesh
     },
-  ],
-  [
     {
       Name: "Charu Kaushik",
       img: charu
-    },
+    }
+  ],
+  [
     {
       Name: "Kumud",
       img: kumud
+    },
+    {
+      Name: "Chaitanya",
+      img: chaitanya
     },
     {
       Name: "Muskan Jain",
