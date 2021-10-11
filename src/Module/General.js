@@ -1,22 +1,7 @@
-// Importing all sponsors logos from Assets
-// import taskade from "./Assets/sponsorsLogos/taskade.png";
-// import Replit from "./Assets/sponsorsLogos/replit.png";
-// import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-// import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-// import cfc from "./Assets/sponsorsLogos/cfc.png";
-// import pass from "./Assets/sponsorsLogos/1pass.png";
-// import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-// import qoom from "./Assets/sponsorsLogos/qoom.svg";
-// import sublime from "./Assets/sponsorsLogos/sublime.png";
-// import egg from "./Assets/sponsorsLogos/egg.png";
-// import ll from "./Assets/sponsorsLogos/ll.png";
-// import ACF from "./Assets/sponsorsLogos/ACF.png";
+// Importing all the Sponsors Logo
+
 import ieee from './Assets/sponsorsLogos/ieee.png';
 
-/** Put all your sponsors logo inside folder `sponsorLogos`
- * and import them in the above and update `src` in sponsorLogos
- * or you can provide a cloud link in src
- */
 
 // Importing all Team members images  from Assets
 import aditi from "./Assets/teami/aditi.jpg";
@@ -34,25 +19,20 @@ import pic from "./Assets/teami/pic.png";
 import aryan from "./Assets/teami/aryan.jpg";
 import muskan from "./Assets/teami/muskan.jpg";
 import vishal from "./Assets/teami/vishal.jpg";
-/** Put all your Team member image inside folder `Team Images`
- * and import them like in the above and update src in TeamInfo
- * or you can provide a cloud link in src also
- */
+import ashwani from "./Assets/teami/ashwani.jpeg";
+import chaitanya from "./Assets/teami/chaitanya.jpg";
 
-
-
+// Importing Illustration
+import boy from "./Assets/boy.png";
 import HU from "./Assets/HU.png"
-
 
 const TOP_SECTION = {
   TITLE: "Join HackUIET",
   Typed_effect: ["60 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
-
   IMG_SRC: HU,
   DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
-
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
@@ -92,36 +72,28 @@ const FOOTER = {
   }
 };
 
-/** ICON
- *
- * icons are from fontawesome visit = https://fontawesome.com
- * and just copy paste icon links and update icon in Prizeinfo
- *
- * INSTRUCTIONS
- *
- * Insert only 3 or less then 3 prizes per array in `Prizeinfo`, you can
- * create as many arrays you want all prizes will be rendered
- * in a group of 3.
- */
+/*
+    This is Prize Section.
+*/
 
 const Prizeinfo = [
   [
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "overall First",
+      type: "Overall First",
       content:
         "First Overall prize will be given to a project that outstands all other submissions"
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
-      type: "overall Second",
+      type: "Overall Second",
       content:
         "Second Overall prize will be given to the second best project of the hackathon"
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Third Second",
+      type: "Overall Third",
       content:
         "Best third overall project of the hackathon will win some awesome prizes"
     }
@@ -136,8 +108,8 @@ const Prizeinfo = [
     },
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
+      type: " Best Use of AI",
+      content: "Your project will qualify for this category if make the best use of AI"
     },
     {
       icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
@@ -149,8 +121,8 @@ const Prizeinfo = [
     //Array 3
     {
       icon: <i class="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
-      content: "Must use qoom in your project to win this category"
+      type: "Best Web App",
+      content: "You project will qualify for this prize if you build the web app"
     },
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
@@ -178,12 +150,12 @@ const TeamInfo = [
       img: harbans
     },
     {
-      Name: "Aryan Basu",
-      img: aryan
+      Name: "Ashwani",
+      img: ashwani
     },
     {
-      Name: "Kumud Rana",
-      img: kumud
+      Name: "Kanishk Tyagi",
+      img: kanishk
     }
   ],
   [
@@ -194,10 +166,6 @@ const TeamInfo = [
       img: gaurika
     },
     {
-      Name: "Kanishk Tyagi",
-      img: kanishk
-    },
-    {
       Name: "Aditi Shandyal",
       img: aditi
     },
@@ -205,13 +173,13 @@ const TeamInfo = [
       Name: "Shatabarto Bhattacharya",
       img: shatabarto
     },
-       
-  ],
-  [
     {
       Name: "Meghna Thakur",
       img: pic
-    },
+    }
+       
+  ],
+  [
     {
       Name: "Jatin Jain",
       img: jatin
@@ -224,15 +192,19 @@ const TeamInfo = [
       Name: "Animesh Bhatt",
       img: animesh
     },
-  ],
-  [
     {
       Name: "Charu Kaushik",
       img: charu
-    },
+    }
+  ],
+  [
     {
       Name: "Kumud",
       img: kumud
+    },
+    {
+      Name: "Chaitanya",
+      img: chaitanya
     },
     {
       Name: "Muskan Jain",
