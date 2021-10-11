@@ -90,36 +90,28 @@ const FOOTER = {
   }
 };
 
-/** ICON
- *
- * icons are from fontawesome visit = https://fontawesome.com
- * and just copy paste icon links and update icon in Prizeinfo
- *
- * INSTRUCTIONS
- *
- * Insert only 3 or less then 3 prizes per array in `Prizeinfo`, you can
- * create as many arrays you want all prizes will be rendered
- * in a group of 3.
- */
+/*
+    This is Prize Section.
+*/
 
 const Prizeinfo = [
   [
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "overall First",
+      type: "Overall First",
       content:
         "First Overall prize will be given to a project that outstands all other submissions"
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
-      type: "overall Second",
+      type: "Overall Second",
       content:
         "Second Overall prize will be given to the second best project of the hackathon"
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Third Second",
+      type: "Overall Third",
       content:
         "Best third overall project of the hackathon will win some awesome prizes"
     }
@@ -134,8 +126,8 @@ const Prizeinfo = [
     },
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
+      type: " Best Use of AI",
+      content: "Your project will qualify for this category if make the best use of AI"
     },
     {
       icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
@@ -147,8 +139,8 @@ const Prizeinfo = [
     //Array 3
     {
       icon: <i class="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
-      content: "Must use qoom in your project to win this category"
+      type: "Best Web App",
+      content: "You project will qualify for this prize if you build the web app"
     },
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
