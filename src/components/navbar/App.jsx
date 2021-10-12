@@ -15,7 +15,7 @@ import HackUIET from "../../Module/Assets/hulogo.svg"
 
 export default class NAVBAR extends React.Component {
   state = {
-    color: "#121930"
+    color: "#25D366"
   };
   listenScrollEvent = e => {
     if (window.scrollY > 800) {
