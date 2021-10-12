@@ -63,7 +63,7 @@ function TeamMembers(props) {
   return (
     <Row className="members">
       {props.map(s => (
-        <Col className="" sm={12} lg={3} md={3}>
+        <Col style={{maxWidth:"50%"}} className="" sm={12} lg={3} md={3}>
           <Member name={s.Name} role={s.role} img={s.img} />
         </Col>
       ))}

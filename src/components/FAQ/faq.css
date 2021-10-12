@@ -1,6 +1,6 @@
 .accordion {
   width: 100%;
-  max-width: 480px;
+  max-width: 80vw;
   margin: 0 auto;
   position: relative;
 }
@@ -17,11 +17,13 @@ margin-top: 10px;
   text-align: left;
   padding: 27px 65px 27px 30px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.5vmax;
+  /*font-size: 18px;*/
   font-family: inherit;
   transition: color 0.1s linear;
   cursor: pointer;
   color: black;
+  height: 5vh;
 }
 .panel__label:focus {
   outline: none;
@@ -51,6 +53,7 @@ margin-top: 10px;
   transform: rotate(0deg);
 }
 .panel__inner {
+  height: 10vh;
   overflow: hidden;
   will-change: height;
   transition: height 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
@@ -61,6 +64,7 @@ margin-top: 10px;
   color: #494948;
   opacity: 0;
   transition: opacity 0.3s linear 0.18s;
+  font-size: 1.5vmax;
 }
 .panel:not(:last-child) {
   margin-bottom: 3px;

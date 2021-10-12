@@ -52,10 +52,12 @@ top: 10px;
   text-align: center;
   margin: 0 auto;
   padding: 0 4vh 0 4vh;
-  margin: 17vh 14vh 0 14vh;
+  /*margin: 17vh 14vh 0 14vh;*/
+  margin: 17vh auto 0 auto;
   border-radius: 14px;
   margin-top: 4vh;
   background-color: #ccff99;
+  width: 80vw;
 }
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;

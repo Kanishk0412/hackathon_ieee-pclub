@@ -33,15 +33,15 @@
   font-weight: 200;
   margin-right: 40px;
 }
-@media (max-width: 570px) {
-  .member {
-    margin-top: 4rem;
-  }
-  .member img {
-    width: 175px;
-    height: 175px;
-  }
-  .joinT h3 {
-    margin-right: 0px;
-  }
-}
+/*@media (max-width: 570px) {*/
+  /*.member {*/
+    /*margin-top: 4rem;*/
+  /*}*/
+  /*.member img {*/
+    /*width: 175px;*/
+    /*height: 175px;*/
+  /*}*/
+  /*.joinT h3 {*/
+    /*margin-right: 0px;*/
+  /*}*/
+/*}*/
