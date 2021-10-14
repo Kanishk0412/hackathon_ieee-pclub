@@ -88,8 +88,8 @@ export default function Footer() {
               </div>
               <hr />
               <p>PClub mail<br />
-              PClub contact<br />
-              PClub phone number<br />
+              pclubuiet@gmail.com<br />
+              9760892957<br />
               </p>
             </div>
           </div>
