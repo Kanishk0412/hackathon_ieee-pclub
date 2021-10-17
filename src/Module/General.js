@@ -1,6 +1,7 @@
 // Importing all the Sponsors Logo
 
 import ieee from './Assets/sponsorsLogos/ieee.png';
+import codedamn from './Assets/sponsorsLogos/codedamn.png';
 
 
 // Importing all Team members images  from Assets
@@ -224,7 +225,7 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src:ieee}]
+  [{src:ieee}, {src:codedamn}]
   // [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
   // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
