@@ -31,7 +31,7 @@ const TOP_SECTION = {
   TITLE: "Join HackUIET",
   Typed_effect: ["60 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 12th November 2021 with over 300 students from across the nation for 60 hours of creation, innovation, & fun.",
   IMG_SRC: HU,
   DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
   JUDGES_FORM_LINK:
@@ -45,7 +45,7 @@ const SOCIALS = {
     discord: "https://discord.gg/TtBnyeWAqt",
     linkedin: "https://www.linkedin.com/company/pclubbuiet/mycompany/",
     twitter: "https://twitter.com/PClubUIET",
-    devpost: "https://limbo-hacks-12968.devpost.com/",
+    devpost: "https://hackuiet-2021.devpost.com/",
     email: "mailto:pclubuiet@gmail.com",
     mail: "pclubuiet@gmail.com"
 };

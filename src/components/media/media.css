@@ -1,5 +1,5 @@
 .media {
-  color: white;
+  color: black;
 }
 .single {
   display: inline-block;
@@ -7,13 +7,13 @@
   margin-right: 25px;
 }
 .single a {
-  color: rgba(231, 228, 228);
+  color: #808080;
   position: relative;
   top: 0px;
   transition: top 0.2s linear;
 }
 .single a:hover {
-  color: white;
+  color: black;
   top: -5px;
 }
 @media (max-width: 570px) {
