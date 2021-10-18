@@ -30,7 +30,7 @@ const TOP_SECTION = {
   TITLE: "Join HackUIET",
   Typed_effect: ["60 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 12th November 2021 with over 300 students from across the nation for 60 hours of creation, innovation, & fun.",
   IMG_SRC: HU,
   DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
   JUDGES_FORM_LINK:
