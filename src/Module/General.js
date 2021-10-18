@@ -44,7 +44,7 @@ const SOCIALS = {
     discord: "https://discord.gg/TtBnyeWAqt",
     linkedin: "https://www.linkedin.com/company/pclubbuiet/mycompany/",
     twitter: "https://twitter.com/PClubUIET",
-    devpost: "https://limbo-hacks-12968.devpost.com/",
+    devpost: "https://hackuiet-2021.devpost.com/",
     email: "mailto:pclubuiet@gmail.com",
     mail: "pclubuiet@gmail.com"
 };
