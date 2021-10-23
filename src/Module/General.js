@@ -35,9 +35,9 @@ const TOP_SECTION = {
   IMG_SRC: HU,
   DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
   JUDGES_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
+    "",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+    ""
 };
 
 const SOCIALS = {

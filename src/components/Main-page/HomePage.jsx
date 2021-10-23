@@ -135,7 +135,7 @@ export default function HomePage(props) {
 
         {/* ********register and volunteer buttons ***** */}
         <Row className='register'>
-          <a href="https://bit.ly/3Gelhzl">
+          <a href="https://bit.ly/3vFmr27">
             <button className='reg_button'>Register Now!</button>            
           </a>
           <a href="https://forms.gle/BFj8mj3Qz1pvAF7W8">
