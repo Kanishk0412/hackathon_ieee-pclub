@@ -25,7 +25,6 @@ margin-top: 10px;
   color: black;
   /*height: 5vh;*/
   height: 5vh;
-  transform: translateY(-30%);
 }
 .panel__label:focus {
   outline: none;
@@ -35,7 +34,7 @@ margin-top: 10px;
   content: "";
   position: absolute;
   right: 25px;
-  top: 80%;
+  top: 50%;
   width: 22px;
   height: 2px;
   margin-top: -2px;
