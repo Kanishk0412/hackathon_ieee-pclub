@@ -13,7 +13,7 @@ button {
   height: 6rem;
   border: none;
   border-radius: 19px;
-  font-size: 2rem;
+  font-size: 1.5vmax;
   color: black;
   background-color: white;
   font-weight: 300;
@@ -46,7 +46,7 @@ button {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5vmax;
   line-height: 1.6;
   font-weight: 300;
 }
