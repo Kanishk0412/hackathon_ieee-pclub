@@ -133,10 +133,16 @@ export default function HomePage(props) {
         </Row>
         {/* ********Prizes ending here ***** */}
 
-        <Row className="prizesection non-coding">
-          <PrizeHeading type="Non-coding prizes" />
-          <h2>coming soon</h2>
+        {/* ********register and volunteer buttons ***** */}
+        <Row className='register'>
+          <a href="https://bit.ly/3vFmr27">
+            <button className='reg_button'>Register Now!</button>            
+          </a>
+          <a href="https://forms.gle/BFj8mj3Qz1pvAF7W8">
+            <button className='reg_button'>Volunteer</button>
+          </a>
         </Row>
+        {/* ********register and volunteer buttons end***** */}
 
         {/* ********Sponsors here ***** */}
 
