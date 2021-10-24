@@ -15,10 +15,7 @@ margin-top: 10px;
   background: none;
   border: none;
   text-align: left;
-  /*padding: 27px 65px 50px 30px;*/
-  padding: calc( 10px + 1vh ) 65px 3vmax 30px;
-  margin-top: auto;
-  margin-bottom:auto;
+  padding: 27px 65px 50px 30px;
   font-weight: 400;
   font-size: 1.5vmax;
   /*font-size: 18px;*/
