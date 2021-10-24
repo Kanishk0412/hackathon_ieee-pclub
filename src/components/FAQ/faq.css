@@ -15,7 +15,7 @@ margin-top: 10px;
   background: none;
   border: none;
   text-align: left;
-  padding: 27px 65px 27px 30px;
+  padding: 27px 65px 50px 30px;
   font-weight: 400;
   font-size: 1.5vmax;
   /*font-size: 18px;*/
@@ -23,6 +23,7 @@ margin-top: 10px;
   transition: color 0.1s linear;
   cursor: pointer;
   color: black;
+  /*height: 5vh;*/
   height: 5vh;
   transform: translateY(-30%);
 }
