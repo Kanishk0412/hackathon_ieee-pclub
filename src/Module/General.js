@@ -53,7 +53,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is HackUiet?",
   LONG_DESCRIPTION:
-    "HackUIET is UIET, PU's premier hackathon organised in the month of November. This year, the hackathon is being held from 12 to 14 November,2021 .We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes. Throughout the weekend hackers at HackUiet will have unique opportunities to learn from each other trying hands in new technologies .We are determined to have an all-inclusive and diverse group of students attending.So come join us for a 48 hours sprint to build things and most importantly, to learn! Participants are requested to carefully fill the google form.Happy Hacking!",
+    "HackUIET is UIET, PU's premier hackathon organised in the month of November. This year, the hackathon is being held from 12 to 14 November,2021 .We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes. Throughout the weekend hackers at HackUiet will have unique opportunities to learn from each other trying hands in new technologies .We are determined to have an all-inclusive and diverse group of students attending.So come join us for a 48 hours sprint to build things and most importantly, to learn! Participants are requested to carefully fill the google form. Happy Hacking!",
   LOGO_EFFECT: true,
   LOGO: ""
 };
