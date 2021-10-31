@@ -22,6 +22,7 @@ button {
 
 .join_disco {
   width: 25rem;
+  margin-right: 20px;
   background: linear-gradient(to right, #33cc33 0%, #99ff33 100%);
 }
 
@@ -93,11 +94,6 @@ button:hover .overlay {
   left: 0;
 }
 
-@media (max-width: 1200px) {
-  .AboutMe h2 {
-    /* font-size: 6rem; */
-  }
-}
 
 /* main targer */
 
