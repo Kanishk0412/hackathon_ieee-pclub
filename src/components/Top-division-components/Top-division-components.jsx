@@ -33,11 +33,17 @@ function Myinfo() {
       <div className="join_dis">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
           <Btn
-            ico="fab fa-2x fa-discord"
             class="join_disco"
             type="Discord"
             overlay="Click the link"
-          />
+          />          
+        </a>
+        <a rel="noreferrer" target="_blank" href='https://bit.ly/3vFmr27'>
+          <Btn
+            class="join_disco"
+            type="Register"
+            overlay="Click the link"            
+          />        
         </a>
       </div>
       {/* This is judges application button */}
