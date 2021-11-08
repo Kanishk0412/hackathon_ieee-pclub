@@ -3,6 +3,8 @@
 import ieee from './Assets/sponsorsLogos/ieee.png';
 import codedamn from './Assets/sponsorsLogos/codedamn.png';
 import gmc from './Assets/sponsorsLogos/gmc.png';
+import gfg from './Assets/sponsorsLogos/gfg.png';
+import bals from './Assets/sponsorsLogos/bals.png';
 
 
 // Importing all Team members images  from Assets
@@ -23,6 +25,8 @@ import muskan from "./Assets/teami/muskan.jpg";
 import vishal from "./Assets/teami/vishal.jpg";
 import ashwani from "./Assets/teami/ashwani.jpeg";
 import chaitanya from "./Assets/teami/chaitanya.jpg";
+
+import tbd from './Assets/judges/tbd.png'
 
 // Importing Illustration
 import boy from "./Assets/boy.png";
@@ -218,6 +222,16 @@ const TeamInfo = [
     },
   ] 
 ];
+const JudgeInfo = [
+  [
+    //Array 1
+    {
+      Name: "TBD",
+      img: tbd
+    },
+
+  ],  
+];
 
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
@@ -226,7 +240,8 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src:ieee}, {src:codedamn}, {src:gmc}]
+  [{src:ieee}, {src:gfg}, {src:bals}],
+  [{src:codedamn},{src:gmc}]
 ];
 
 /** Instructions
@@ -284,5 +299,6 @@ export {
   Prizeinfo,
   sponsorLogos,
   TeamInfo,
-  frequentlyAskedQuestions
+  frequentlyAskedQuestions,
+  JudgeInfo
 };

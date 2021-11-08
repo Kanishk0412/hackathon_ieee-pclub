@@ -23,7 +23,8 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   FOOTER,
-  panels
+  panels,
+  JudgeInfo
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -152,6 +153,13 @@ export default function HomePage(props) {
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
+
+
+        {/* ********Team here ***** */}
+        <h1 id="team">Judges</h1>
+        {JudgeInfo.map(TeamMembers)}
+        {/* calling the team members function for simplicity */}
+        {/* ********Team ending here ***** */}
 
 
         {/* ********Team here ***** */}
