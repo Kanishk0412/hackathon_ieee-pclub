@@ -46,7 +46,7 @@ top: 10px;
   margin-bottom: 3vh;
 }
 .members {
-  padding: 0vh 10vh 0 10vh;
+  padding: 0vh 10vh 5vh 10vh;
 }
 .prizesection {
   text-align: center;
@@ -86,7 +86,6 @@ top: 10px;
   background-color: #ccff99;
   
 }
-
 
 
 @media (max-width: 570px) {

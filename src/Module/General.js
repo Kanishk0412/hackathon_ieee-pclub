@@ -26,7 +26,9 @@ import vishal from "./Assets/teami/vishal.jpg";
 import ashwani from "./Assets/teami/ashwani.jpeg";
 import chaitanya from "./Assets/teami/chaitanya.jpg";
 
-import tbd from './Assets/judges/tbd.png'
+//importing judges
+import russianguy from './Assets/judges/russianguy.jpg'
+import prabhakaran from './Assets/judges/prabakaran.jpg'
 
 // Importing Illustration
 import boy from "./Assets/boy.png";
@@ -226,8 +228,12 @@ const JudgeInfo = [
   [
     //Array 1
     {
-      Name: "TBD",
-      img: tbd
+      Name: "Никита Васильев",
+      img: russianguy
+    },
+    {
+      Name: "Prabakaran Chandran",
+      img: prabhakaran
     },
 
   ],  
