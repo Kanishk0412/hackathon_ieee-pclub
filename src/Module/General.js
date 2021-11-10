@@ -228,7 +228,7 @@ const JudgeInfo = [
   [
     //Array 1
     {
-      Name: "Никита Васильев",
+      Name: "Nikita Vasiliev",
       img: russianguy
     },
     {
