@@ -74,7 +74,6 @@ export default function Footer() {
         <div className="footer_info">
           <div className="footer_org">
             <div className="footer_org_div">
-              <hr />
               <div style={{height:"30%"}}>
                 <img style={{objectFit:"scale-down" , height:"100%", paddingBottom:"auto", paddingTop:"auto"}} src={PClub} />
               </div>
@@ -84,18 +83,15 @@ export default function Footer() {
               Do you have any question? Feel free<br />
               to reach out to us at<br />
               pclubuiet@gmail.com<br />
-              <hr />
               </p>
             </div>
             <div className="footer_org_div">
-              <hr />
               <div style={{height:"30%"}}>
                 <img style={{objectFit:"scale-down" , height:"100%", paddingBottom:"auto", paddingTop:"auto"}} src={PClub} />
               </div> 
               <br />
-              <p>Programming Club (or better known as Pclub) understands this responsibility and plays a crucial role in sustaining the coding culture in the institute. With various introductory workshops and informative seminars, we introduced the students to the diverse facets of programming. We organised regular competitions for the general student body to test and sharpen their programming skills. 
+              <p>Programming Club (or better known as Pclub) understands this responsibility and plays a crucial role in sustaining the coding culture in the institute. With various introductory workshops and informative seminars, we introduced the students to the diverse facets of programming. 
               </p>
-              <hr />
             </div>
           </div>
           <p>
