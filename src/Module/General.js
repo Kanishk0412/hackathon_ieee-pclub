@@ -91,7 +91,7 @@ const Prizeinfo = [
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: "Overall First",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
+        "First Overall prize will be given to a project that outstands all other submissions" 
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
