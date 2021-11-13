@@ -40,7 +40,7 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION:
     "Join us on 11th November 2021 with over 300 students from across the nation for 48 hours of creation, innovation, & fun.",
   IMG_SRC: HU,
-  DISCORD_LINK: "https://discord.gg/TtBnyeWAqt",
+  DISCORD_LINK: "https://discord.gg/ydmNF5aVnD",
   JUDGES_FORM_LINK:
     "",
   HACKERS_REGISTRATION_FORM_LINK:
@@ -49,7 +49,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
     instagram: "https://www.instagram.com/pclubuiet/",
-    discord: "https://discord.gg/TtBnyeWAqt",
+    discord: "https://discord.gg/ydmNF5aVnD",
     linkedin: "https://www.linkedin.com/company/pclubbuiet/mycompany/",
     twitter: "https://twitter.com/PClubUIET",
     devpost: "https://hackuiet-2021.devpost.com/",
